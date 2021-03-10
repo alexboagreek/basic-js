@@ -4,6 +4,9 @@ const MODERN_ACTIVITY= 15;
 const HALF_LIFE_PERIOD= 5730;
 
 module.exports = function dateSample(sampleActivity) {
-  return false;
+  if (arguments == 0 || arguments != 'string'){
+    return false;
+  }
+  return Number;
   // remove line with error and write your code here
 };
